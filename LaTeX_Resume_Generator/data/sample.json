@@ -1,0 +1,39 @@
+{
+    "name": "Jane",
+    "surname": "Doe",
+    "email": "agnelms27@gmail.com",
+    "phone": "+91 9037193079",
+    "linkedin": "www.linkedin.com/in/agnel-m-s-7a2774280",
+    "linkedin_label": "agnel",
+    "github": "AGNELMS",
+    "career_objective": "Aspiring software engineer with expertise in Python automation, LaTeX development, and IoT systems. Passionate about solving real-world challenges through innovation and efficiency.",
+    "education": [
+        {
+            "duration": "Dec 2021 -- Present",
+            "degree": "B.Tech in Electronics and Communication Engineering",
+            "institute": "NIT Calicut, Kerala",
+            "details": "CGPA: 7.33"
+        },
+        {
+            "duration": "Jun 2018 -- Mar 2020",
+            "degree": "CBSE Stream, Computer Science",
+            "institute": "St. Antony's Public School, Anakkal, Kerala",
+            "details": "Percentage: 94.4%"
+        }
+    ],
+    "skills": [
+        {"name": "Programming Languages", "details": "C, C++, Python, Javascript"},
+        {"name": "Development Tools", "details": "LaTeX, Visual Studio Code, MATLAB"},
+        {"name": "Soft Skills", "details": "Team Collaboration, Stakeholder Management"}
+    ],
+    "projects": [
+        {
+            "title": "LaTeX Resume Generator (Dec 2024)",
+            "details": "Automated the creation of professional resumes using Python, achieving a 70% reduction in manual formatting efforts."
+        },
+        {
+            "title": "Flood Prediction System (Nov 2024)",
+            "details": "Developed a wireless sensor network achieving 90% accuracy in early flood detection."
+        }
+    ]
+}

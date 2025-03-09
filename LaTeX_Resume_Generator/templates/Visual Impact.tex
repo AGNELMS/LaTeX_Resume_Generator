@@ -1,0 +1,41 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+% ModernCV themes
+\moderncvstyle{banking} % Style
+\moderncvcolor{green} % Color
+\usepackage[scale=0.9]{geometry}
+
+% Personal data
+\name{<< name >>}{<<surname>>}
+\email{<< email >>}
+\phone[mobile]{<< phone >>}
+\social[linkedin][<< linkedin >>]{<< linkedin_label >>}
+\social[github]{<< github >>}
+
+\begin{document}
+
+\makecvtitle
+
+% Career Objective
+\section{Career Objective}
+<< career_objective >>
+
+% Education Section
+\section{Education}
+<<% for edu_item in education %>>
+\cventry{<< edu_item.duration >>}{<< edu_item.degree >>}{<< edu_item.institute >>}{}{}{<< edu_item.details >>}
+<<% endfor %>>
+
+% Skills Section
+\section{Skills}
+<<% for skill_item in skills %>>
+\cvitem{<< skill_item.name >>}{<< skill_item.details >>}
+<<% endfor %>>
+
+% Projects Section
+\section{Projects}
+<<% for project_item in projects %>>
+\cvitem{<< project_item.title >>}{<< project_item.details >>}
+<<% endfor %>>
+
+\end{document}
